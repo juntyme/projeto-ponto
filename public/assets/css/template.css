@@ -79,6 +79,13 @@ header.header .dropdown-button {
 
 }
 
+header.header .avatar {
+    height: 75%;
+    width: 55px;
+    border-radius: 50%;
+    margin: 0px 0px 0px 10px;
+}
+
 header.header .dropdown:hover .dropdown-content {
     display: block;
 }

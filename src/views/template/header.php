@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
 
 <head>
     <meta charset="UTF-8">
@@ -27,8 +27,9 @@
         </div>
         <div class="spacer"></div>
         <div class="dropdown">
-            <div class="dropdown-button my-3">
-                <span class="ml-3">Usuário Mock</span>
+            <div class="dropdown-button ">
+                <img class="avatar" src="<?= "http://www.gravatar.com/avatar.php?gravatar_id=" . md5(strtolower(trim($_SESSION['user']->email))) ?>" alt="user">
+                <span class="ml-3"><?= $_SESSION['user']->name ?></span>
                 <i class="icofont-simple-down mx-3"></i>
             </div>
             <div class="dropdown-content">
