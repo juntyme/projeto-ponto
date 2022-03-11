@@ -12,11 +12,11 @@
     <title>In n' Out</title>
 </head>
 
-<body class="hide-sidebar">
+<body>
 
     <header class="header">
         <div class="logo">
-            <i class="icofont-travelling mr-3"></i>
+            <i class="icofont-travelling mr-3 "></i>
             <span class="font-weight-light">In</span>
             <span class="font-weight-bold mx-2">N'</span>
             <span class="font-weight-light">Out</span>
@@ -26,4 +26,20 @@
             <i class="icofont-navigation-menu"></i>
         </div>
         <div class="spacer"></div>
+        <div class="dropdown">
+            <div class="dropdown-button my-3">
+                <span class="ml-3">Usuário Mock</span>
+                <i class="icofont-simple-down mx-3"></i>
+            </div>
+            <div class="dropdown-content">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="logout.php">
+                            <i class="icofont-logout mr-2"></i>
+                            sair
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
