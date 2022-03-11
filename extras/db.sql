@@ -9,7 +9,7 @@ CREATE TABLE users (
     password VARCHAR(100) NOT NULL,
     email VARCHAR(50) UNIQUE NOT NULL,
     start_date DATE NOT NULL,
-    end_date DATE, 
+    end_date DATE,
     is_admin BOOLEAN NOT NULL DEFAULT false
 );
 

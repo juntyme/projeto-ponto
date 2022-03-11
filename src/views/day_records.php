@@ -17,12 +17,12 @@
         </div>
         <div class="card-body">
             <div class="d-flex  justify-content-around m-5">
-                <span class="record">Endrata 1: ---</span>
-                <span class="record">Saída 1: ---</span>
+                <span class="record">Endrata 1: <?= $records->time1 ?? '---' ?></span>
+                <span class="record">Saída 1: <?= $records->time2 ?? '---' ?></span>
             </div>
             <div class="d-flex justify-content-around m-5 ">
-                <span class="record">Endrata 1: ---</span>
-                <span class="record">Saída 1: ---</span>
+                <span class="record">Endrata 1: <?= $records->time3 ?? '---' ?></span>
+                <span class="record">Saída 1: <?= $records->time4 ?? '---' ?></span>
             </div>
             <div class="card-footer d-flex justify-content-center">
                 <a href="???" class="btn btn-success btn-lg">
